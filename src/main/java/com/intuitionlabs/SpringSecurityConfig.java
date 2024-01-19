@@ -26,7 +26,7 @@ public class SpringSecurityConfig {
 
     private static final String[] WHITE_LIST_URL = {
             "/auth/**",
-            "/account"};
+            "/accounts"};
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
